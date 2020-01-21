@@ -20,7 +20,7 @@ now = datetime.datetime.now()
 month = now.month
 
 ### Input years
-years = np.arange(1914,2013+1,1)
+years = np.arange(1914,2019+1,1)
 
 ### Read data from server
 data = Dataset(directorydata + 'G10010_SIBT1850_v1.1.nc')
